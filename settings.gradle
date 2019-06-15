@@ -10,4 +10,5 @@
 rootProject.name = 'toolkit'
 include 'property-library'
 include 'hostmgr'
+include 'codecheck'
 
