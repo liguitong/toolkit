@@ -3,8 +3,6 @@
  */
 package com.lgt.property;
 
-public class Library {
-    public boolean someLibraryMethod() {
-        return true;
-    }
+public class PropertyUtil {
+
 }
