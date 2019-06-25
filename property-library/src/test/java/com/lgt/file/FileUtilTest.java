@@ -13,12 +13,13 @@ public class FileUtilTest {
     @Test
     public void getAllPropertyFiles() throws IOException {
         FileUtil fileUtil= new FileUtil();
-        File currentFile = new File("D:\\code\\toolkit");
+        File currentFile = new File("..");
+
         System.out.println("Try to file the property files in : " +currentFile.getCanonicalPath());
         List<String> propertyFiles = fileUtil.getAllPropertyFiles(currentFile);
         propertyFiles.forEach(file->{
             System.out.println(file);
         });
-        assertTrue(propertyFiles.size()==1);
+        assertTrue(propertyFiles.size() == 1);
     }
 }
